@@ -207,7 +207,7 @@
     <section i
       class="flex overflow-hidden relative flex-col items-center px-20 pt-12 pb-28 w-full text-center max-md:px-5 max-md:pb-24 max-md:max-w-full">
 
-      <div class="flex flex-col items-center mb-0 w-full max-w-[1184px] max-md:mb-2.5 max-md:max-w-full">
+      <div class="flex flex-col items-center mb-0 w-full max-w-[1180px] max-md:mb-2.5 max-md:max-w-full">
 
 
 
@@ -225,49 +225,36 @@
 
 
     <!-- DIVISÃO COM BORDA "RASGADA" + BLOCO VERDE -->
-    <section class="relative w-full overflow-hidden bg-green-900 pt- md:pt-">
+    <!-- DIVISÃO COM FUNDO DE IMAGEM (já com rasgo incluso) -->
+<section class="relative w-full overflow-hidden bg-cover bg-top"
+  style="background-image: url('img/871ac953-da8e-4de0-a070-81ae6f757cec.png');">
 
-      <!-- Rasgo que “entra” no bloco verde (pintado com a cor do fundo anterior) -->
-      <svg class="absolute -top-8 left-0 w-full h-16 z-10" viewBox="0 0 1440 120" preserveAspectRatio="none"
-        aria-hidden="true">
-        <path
-          d="M0,60 C120,90 240,30 360,60 480,90 600,30 720,60 840,90 960,30 1080,60 1200,90 1320,30 1440,60 L1440,0 L0,0 Z"
-          fill="#F2EDE3"></path>
-      </svg>
+  <div class="flex flex-col items-center px-16 max-md:px-5">
+    <div class="flex flex-wrap gap-10 items-center min-h-[658px] max-md:max-w-full">
 
-      <div class="flex flex-col items-center px-16 max-md:px-5">
-        <div class="flex flex-wrap gap-10 items-center min-h-[758px] max-md:max-w-full">
+      <figure
+        class="flex flex-col text-base font-light leading-7 text-white rounded-2xl min-w-60 w-[568px] max-md:max-w-full">
+        <img src="img/00f162edc4214f7226051eef806c80931dc5c40d.png"
+          class="object-contain w-full shadow-lg aspect-[0.84] max-md:max-w-full" alt="Luciana Marques" />
+        <figcaption class="self-start ml-3 max-md:ml-2.5">
+          Luciana Marques - Gerente de Qualidade
+        </figcaption>
+      </figure>
 
-          <figure
-            class="flex flex-col text-base font-light leading-7 text-white rounded-2xl min-w-60 w-[568px] max-md:max-w-full">
-            <img src="img/00f162edc4214f7226051eef806c80931dc5c40d.png"
-              class="object-contain w-full shadow-lg aspect-[0.84] max-md:max-w-full" alt="Luciana Marques" />
-            <figcaption class="self-start ml-3 max-md:ml-2.5">
-              Luciana Marques - Gerente de Qualidade
-            </figcaption>
-          </figure>
+      <article class="min-w-60 w-[479px] max-md:max-w-full">
+        <h1 class="text-8xl text-yellow-400 leading-[96px] max-md:text-4xl max-md:leading-10">
+          PROTAGONISTAS DESTA HISTÓRIA
+        </h1>
+        <p class="mt-6 text-2xl font-light leading-7 text-white max-md:max-w-full">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          quam tellus, tincidunt sit amet enim eu, maximus rutrum quam.
+        </p>
+      </article>
 
-          <article class="min-w-60 w-[479px] max-md:max-w-full">
-            <h1 class="text-8xl text-yellow-400 leading-[96px] max-md:text-4xl max-md:leading-10">
-              PROTAGONISTAS DESTA HISTÓRIA
-            </h1>
-            <p class="mt-6 text-2xl font-light leading-7 text-white max-md:max-w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              quam tellus, tincidunt sit amet enim eu, maximus rutrum quam.
-              Aliquam euismod dolor eu erat consequat ornare. Aliquam mattis
-              risus eu enim dictum ornare. Pellentesque ac est sagittis,
-              elementum ante sit amet, sagittis nulla. Curabitur efficitur
-              suscipit risus eget consequat. Aliquam facilisis eros nisi, eget
-              accumsan velit varius eget. Sed et lacus felis. Mauris leo quam,
-              suscipit nec tempus a, efficitur non magna. Sed nec iaculis
-              tellus, et dictum metus. Quisque porttitor neque sit amet
-              faucibus aliquam.
-            </p>
-          </article>
+    </div>
+  </div>
+</section>
 
-        </div>
-      </div>
-    </section>
 
     <!-- Countdown Section -->
     <section id="webserie"
@@ -553,78 +540,110 @@
       </script>
 
 
-      <!-- Footer Image -->
-      <footer class="flex gap-2.5 justify-center items-center px-2.5 bg-stone-900 min-w-80">
-        <div
-          class="flex overflow-hidden flex-col flex-1 shrink self-stretch pt-10 pr-11 pb-5 my-auto w-full basis-0 min-w-60 max-md:max-w-full">
-          <div class="flex flex-wrap gap-5 justify-between max-md:max-w-full">
-            <section class="flex flex-col">
-              <div class="flex overflow-hidden gap-2.5 justify-center items-end self-start px-6 py-2 max-md:px-5">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/e9f43915614948e09d71586c74d9095a/6bea6bf83b53fd032e47b6ddf4d240be04ce9797?placeholderIfAbsent=true"
-                  class="object-contain shrink-0 aspect-[2.76] w-[174px]" alt="Nidera Logo" />
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/e9f43915614948e09d71586c74d9095a/2cc64aff7dae397bb92d6410995167daa9a0a051?placeholderIfAbsent=true"
-                  class="object-contain shrink-0 w-24 aspect-[2.6]" alt="Secondary Logo" />
-              </div>
-              <div class="px-10 mt-4 max-md:px-5">
-                <p class="text-base font-light text-white">
-                  Há 20 anos avançando com a agricultura brasileira.
-                </p>
-                <p class="mt-2.5 text-3xl text-yellow-400">#nidera20anos</p>
-              </div>
-            </section>
-            <section class="flex flex-col my-auto">
-              <h2 class="text-2xl text-center text-yellow-400">
-                siga-nos nas redes sociais
-              </h2>
+     <footer style="background:#e5e5e5; color:#111; font-family:Arial, sans-serif; padding:40px 0;">
+  <div style="max-width:1200px; margin:auto; display:grid; grid-template-columns: repeat(5, 1fr); gap:20px; text-align:left;">
 
-              <div class="flex gap-5 justify-center mt-3">
-                <!-- Facebook -->
-                <a href="https://facebook.com/seuperfil" target="_blank" aria-label="Facebook"
-                  class="text-white hover:text-yellow-400 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H8v-2.9h2.44V9.41c0-2.42 1.43-3.76 3.63-3.76 1.05 0 2.15.19 2.15.19v2.37h-1.21c-1.2 0-1.57.75-1.57 1.52v1.83h2.67l-.43 2.9h-2.24v7.03C18.34 21.2 22 17.07 22 12.07z" />
-                  </svg>
-                </a>
+    <!-- ESTILOS (pode colocar no <head> ou antes de fechar o </footer>) -->
+<style>
+  .sns { display:flex; justify-content:center; gap:16px; }
+  .sns a{
+    width:44px; height:44px; border-radius:50%;
+    background:#fff; color:#111; text-decoration:none;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 1px 2px rgba(0,0,0,.12);
+    line-height:0; transition:transform .15s ease, color .15s ease;
+  }
+  .sns a:hover{ color:#eab308; transform:translateY(-1px); } /* amarelo no hover */
+  .sns svg{ width:22px; height:22px; fill:currentColor; display:block; }
+  .sns-title{
+    font-weight:800; font-size:32px; line-height:1;
+    text-align:center; margin:0 0 12px;
+  }
+</style>
 
-                <!-- Instagram -->
-                <a href="https://instagram.com/seuperfil" target="_blank" aria-label="Instagram"
-                  class="text-white hover:text-yellow-400 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3a3 3 0 110-6zm4.5-.25a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" />
-                  </svg>
-                </a>
+<!-- SIGA-NOS -->
+<div>
+  <p class="sns-title">Siga-nos</p>
 
-                <!-- Twitter/X -->
-                <a href="https://twitter.com/seuperfil" target="_blank" aria-label="Twitter"
-                  class="text-white hover:text-yellow-400 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M22.162 5.656c-.793.352-1.646.59-2.54.697a4.477 4.477 0 001.962-2.475 8.9 8.9 0 01-2.83 1.083A4.462 4.462 0 0015.448 4c-2.475 0-4.48 2.005-4.48 4.48 0 .351.04.694.115 1.021A12.68 12.68 0 013.17 5.1a4.478 4.478 0 001.387 5.973 4.43 4.43 0 01-2.029-.56v.057c0 2.157 1.534 3.954 3.57 4.362a4.493 4.493 0 01-2.023.077 4.48 4.48 0 004.184 3.113A8.957 8.957 0 012 19.54a12.62 12.62 0 006.84 2.004c8.21 0 12.698-6.801 12.698-12.698 0-.194-.004-.389-.013-.582a9.058 9.058 0 002.237-2.309z" />
-                  </svg>
-                </a>
+  <div class="sns">
+    <!-- Facebook -->
+    <a href="https://facebook.com/seuperfil" target="_blank" aria-label="Facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H8v-2.9h2.44V9.41c0-2.42 1.43-3.76 3.63-3.76 1.05 0 2.15.19 2.15.19v2.37h-1.21c-1.2 0-1.57.75-1.57 1.52v1.83h2.67l-.43 2.9h-2.24v7.03C18.34 21.2 22 17.07 22 12.07z"/>
+      </svg>
+    </a>
 
-                <!-- YouTube -->
-                <a href="https://youtube.com/seucanal" target="_blank" aria-label="YouTube"
-                  class="text-white hover:text-yellow-400 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M21.8 8.001a2.75 2.75 0 00-1.937-1.947C18.134 6 12 6 12 6s-6.134 0-7.863.054A2.75 2.75 0 002.2 8.001 28.6 28.6 0 002 12c0 1.35.05 2.7.2 3.999a2.75 2.75 0 001.937 1.947C5.866 18 12 18 12 18s6.134 0 7.863-.054a2.75 2.75 0 001.937-1.947c.15-1.299.2-2.649.2-3.999 0-1.35-.05-2.7-.2-3.999zM10 14.5V9.5l5 2.5-5 2.5z" />
-                  </svg>
-                </a>
-              </div>
-            </section>
+    <!-- Instagram -->
+    <a href="https://instagram.com/seuperfil" target="_blank" aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3a3 3 0 110-6zm4.5-.25a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z"/>
+      </svg>
+    </a>
 
-          </div>
-          <hr class="flex shrink-0 mt-3 ml-11 max-w-full h-px bg-white bg-opacity-50 w-[1332px]" />
-          <p class="self-center mt-4 text-sm font-light text-white">
-            © 2025 Nidera Sementes. Todos os direitos reservados.
-          </p>
-        </div>
-      </footer>
+    <!-- YouTube -->
+    <a href="https://youtube.com/seucanal" target="_blank" aria-label="YouTube">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M21.8 8.001a2.75 2.75 0 00-1.937-1.947C18.134 6 12 6 12 6s-6.134 0-7.863.054A2.75 2.75 0 002.2 8.001 28.6 28.6 0 002 12c0 1.35.05 2.7.2 3.999a2.75 2.75 0 001.937 1.947C5.866 18 12 18 12 18s6.134 0 7.863-.054a2.75 2.75 0 001.937-1.947c.15-1.299.2-2.649.2-3.999 0-1.35-.05-2.7-.2-3.999zM10 14.5V9.5l5 2.5-5 2.5z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+
+    <!-- Logo -->
+    <div>
+      <img src="img/Captura de tela 2025-08-26 093916.png" alt="Nidera Sementes" style="max-width:120px; margin-bottom:15px;">
+    </div>
+  </div>
+
+  <!-- Blocos de links em 4 colunas -->
+  <div style="max-width:1200px; margin:30px auto 0; display:grid; grid-template-columns: repeat(4, 1fr); gap:20px; text-align:left;">
+
+    <div>
+      <p style="font-weight:bold;">Cultivos</p>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="#" style="text-decoration:none; color:#111;">Culturas de Soja</a></li>
+        <li><a href="#" style="text-decoration:none; color:#111;">Híbridos de Milho</a></li>
+        <li><a href="#" style="text-decoration:none; color:#111;">Algodão Vigiton</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p style="font-weight:bold;">Catálogos</p>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="#" style="text-decoration:none; color:#111;">Catálogo Norte Nordeste</a></li>
+        <li><a href="#" style="text-decoration:none; color:#111;">Catálogo Sul Sudeste</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p style="font-weight:bold;">Institucional</p>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="#" style="text-decoration:none; color:#111;">Saiba mais Nidera</a></li>
+        <li><a href="#" style="text-decoration:none; color:#111;">Tratamento de sementes</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p style="font-weight:bold;">Somos Nidera</p>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li><a href="#" style="text-decoration:none; color:#111;">Contato</a></li>
+        <li><a href="#" style="text-decoration:none; color:#111;">Trabalhe conosco</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Linha final -->
+  <div style="text-align:center; font-size:12px; margin-top:20px; border-top:1px solid #ccc; padding-top:15px;">
+    © 2025 Nidera Sementes | 
+    <a href="#" style="color:#111; text-decoration:none;">Política de Privacidade</a> | 
+    <a href="#" style="color:#111; text-decoration:none;">Termos e Condições</a>
+  </div>
+</footer>
+
+<!-- Ícones FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 
       <script>
         // Countdown Timer Functionality
